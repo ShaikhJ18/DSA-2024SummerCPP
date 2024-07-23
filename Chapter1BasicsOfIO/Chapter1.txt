@@ -1,0 +1,7 @@
+Competitive programming combines two topics: (1) the design of algorithms and (2) the implementation of algorithms.
+
+-- Design of Algorithms
+The design of algorithms consists of problem solving and mathematical thinking
+
+--Implemenation of Algorithms
+The implementation of algorithms requires good programming skills. In competitive programming, the solutions are graded by testing an implemented algorithm using a set of test cases. Thus, it is not enough that the idea of the algorithm is correct, but the implementation also has to be correct.
