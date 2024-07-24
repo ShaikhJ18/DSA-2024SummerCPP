@@ -16,3 +16,8 @@ O(n), O(n^2) and O(n). Thus, the total time complexity is O(n^2).
 
 --Several Variables in an Algorithm
 Sometimes the time complexity depends on several factors. In this case, the time complexity formula contains several variables
+
+--Recursion
+The time complexity of a recursive function depends on the number of times the function is called and the time complexity of a single call. The total time complexity is the product of these values
+
+--Complexity Classes of Algorithms
