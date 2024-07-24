@@ -5,3 +5,83 @@ The design of algorithms consists of problem solving and mathematical thinking
 
 --Implemenation of Algorithms
 The implementation of algorithms requires good programming skills. In competitive programming, the solutions are graded by testing an implemented algorithm using a set of test cases. Thus, it is not enough that the idea of the algorithm is correct, but the implementation also has to be correct.
+
+
+--Arithmetic Progression
+An arithmetic progression is a sequence of numbers where the difference
+between any two consecutive numbers is constant. For example,3,7,11,15 is an arithemtic progression with constant 4
+
+--Geometric Progression
+A geometric progression is a sequence of numbers where the ratio between
+any two consecutive numbers is constant. For example,
+3,6,12,24 is a geometric progression with constant 2
+
+****Set Theory****
+A set is a collection of elements. For example, the set
+X = {2,4,7}
+contains elements 2, 4 and 7. The symbol ; denotes an empty set, and |S| denotes
+the size of a set S, i.e., the number of elements in the set. For example, in the
+above set, |X| = 3.
+If a set S contains an element x, we write x ∈ S, and otherwise we write x ∉ S.
+For example, in the above set
+4 ∈ X and 5 ∉ X
+• The intersection A ∩ B consists of elements that are in both A and B. For
+example, if A = {1,2,5} and B = {2,4}, then A ∩ B = {2}.
+• The union A ∪ B consists of elements that are in A or B or both. For
+example, if A = {3,7} and B = {2,3,8}, then A ∪ B = {2,3,7,8}.
+• The complement A¯ consists of elements that are not in A. The interpretation of a complement depends on the universal set, which contains all
+possible elements. For example, if A = {1,2,5,7} and the universal set is
+{1,2,...,10}, then A¯ = {3,4,6,8,9,10}.
+• The difference A \ B = A ∩ B¯ consists of elements that are in A but not
+in B. Note that B can contain elements that are not in A. For example, if
+A = {2,3,7,8} and B = {3,5,8}, then A \B = {2,7}.
+If each element of A also belongs to S, we say that A is a subset of S, denoted
+by A ⊂ S. A set S always has 2^|S|
+subsets, including the empty set. For example,
+the subsets of the set {2,4,7} are
+;, {2}, {4}, {7}, {2,4}, {2,7}, {4,7} and {2,4,7}.
+Some often used sets are N (natural numbers), Z (integers), Q (rational
+numbers) and R (real numbers). The set N can be defined in two ways, depending
+on the situation: either N = {0,1,2,...} or N = {1,2,3,...}.
+
+***Logic***
+he value of a logical expression is either true (1) or false (0). The most important logical operators are ¬ (negation), ∧ (conjunction), ∨ (disjunction), ⇒
+(implication) and ⇔ (equivalence).
+
+The expression ¬A has the opposite value of A. The expression A ∧B is true
+if both A and B are true, and the expression A ∨B is true if A or B or both are
+true. The expression A ⇒ B is true if whenever A is true, also B is true. The
+expression A ⇔ B is true if A and B are both true or both false.
+
+A predicate is an expression that is true or false depending on its parameters.
+Predicates are usually denoted by capital letters. For example, we can define
+a predicate P(x) that is true exactly when x is a prime number. Using this
+definition, P(7) is true but P(8) is false.
+A quantifier connects a logical expression to the elements of a set. The most
+important quantifiers are ∀ (for all) and ∃ (there is)
+
+
+
+***Functions***
+The function floor(x) rounds the number x down to an integer, and the function ceil(x)
+rounds the number x up to an integer. For example,
+floor(3/2) = 1 and ceil(3/2) = 2.
+The functions min(x1, x2,..., xn) and max(x1, x2,..., xn) give the smallest and
+largest of values x1, x2,..., xn. For example,
+min(1,2,3) = 1 and max(1,2,3) = 3.
+
+Factorial Function 
+0! = 1
+n! = n·(n−1)!
+
+The Fibonacci numbers arise in many situations. They can be defined
+recursively as follows:
+f (0) = 0
+f (1) = 1
+f (n) = f (n−1)+ f (n−2)
+The first Fibonacci numbers are
+0,1,1,2,3,5,8,13,21,34,55
+
+
+
+
