@@ -1,0 +1,18 @@
+--Time Complexity
+The time complexity of an algorithm estimates how much time the algorithm will use for some input. The idea is to represent the efficiency as a function whose parameter is the size of the input. By calculating the time complexity, we can find out whether the algorithm is fast enough without implementing it.
+
+--Big O
+The time complexity of an algorithm is denoted O(···) where the three dots represent some function. Usually, the variable n denotes the input size. For example, if the input is an array of numbers, n will be the size of the array, and if the input is a string, n will be the length of the string.
+
+--Loops
+A common reason why an algorithm is slow is that it contains many loops that go through the input. The more nested loops the algorithm contains, the slower it is. If there are k nested loops, the time complexity is O(n^k)
+
+--Magnitude
+A time complexity does not tell us the exact number of times the code inside a loop is executed, but it only shows the order of magnitude. In the following examples, the code inside the loop is executed 3n, n+5 and dn/2e times, but the time complexity of each code is O(n).
+
+--Phases
+If the algorithm consists of consecutive phases, the total time complexity is the largest time complexity of a single phase. The reason for this is that the slowest phase is usually the bottleneck of the code. For example, the following code consists of three phases with time complexities
+O(n), O(n^2) and O(n). Thus, the total time complexity is O(n^2).
+
+--Several Variables in an Algorithm
+Sometimes the time complexity depends on several factors. In this case, the time complexity formula contains several variables
